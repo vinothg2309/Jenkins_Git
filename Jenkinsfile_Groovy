@@ -1,13 +1,13 @@
 node {
   stage('Git Checkout'){
-    echo 'In Git checkout'
+    echo 'DEV - In Git checkout'
   }
   
   stage('Deploy'){
-    echo 'In Deploy Stage'
+    echo 'DEV - In Deploy Stage'
   }
   
   stage('Test'){
-    echo 'In Deploy Stage'
+    echo 'DEV - In Deploy Stage'
   }
 }
