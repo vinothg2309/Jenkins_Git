@@ -1,0 +1,13 @@
+node {
+  stage('Git Checkout'){
+    echo 'In Git checkout'
+  }
+  
+  stage('Deploy'){
+    echo 'In Deploy Stage'
+  }
+  
+  stage('Test'){
+    echo 'In Deploy Stage'
+  }
+}
