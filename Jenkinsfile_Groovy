@@ -1,6 +1,7 @@
 node {
   stage('Git Checkout'){
     echo 'In Git checkout'
+    releasenotes()
   }
   
   stage('Deploy'){
